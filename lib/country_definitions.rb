@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-COUNTRY_NAMES  = [
+COUNTRY_NAMES   = [
   'Afghanistan',
   'Ãland Islands',
   'Albania',
@@ -252,7 +252,7 @@ COUNTRY_NAMES  = [
   'Zimbabwe',
 ]
 
-COUNTRY_ALPHA2 = [
+COUNTRY_ALPHA2S = [
   'AF',
   'AX',
   'AL',
@@ -504,7 +504,7 @@ COUNTRY_ALPHA2 = [
   'ZW',
 ]
 
-COUNTRY_ALPHA3 = [
+COUNTRY_ALPHA3S = [
   'AFG',
   'ALA',
   'ALB',
@@ -756,7 +756,7 @@ COUNTRY_ALPHA3 = [
   'ZWE',
 ]
 
-COUNTRY_NUM    = [
+COUNTRY_NUMS    = [
   4,
   248,
   8,

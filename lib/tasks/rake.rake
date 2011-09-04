@@ -51,10 +51,10 @@ namespace :plugin do
 
       File.open(File.dirname(__FILE__) + "/../country_definitions.rb", "w:UTF-8") do |definitions|
         definitions << "# encoding: UTF-8\n\n"
-        definitions << "COUNTRY_NAMES  = " << names.dump_source   << "\n\n"
-        definitions << "COUNTRY_ALPHA2 = " << alpha2s.dump_source << "\n\n"
-        definitions << "COUNTRY_ALPHA3 = " << alpha3s.dump_source << "\n\n"
-        definitions << "COUNTRY_NUM    = " << nums.dump_source    << "\n\n"
+        definitions << "COUNTRY_NAMES   = " << names.dump_source   << "\n\n"
+        definitions << "COUNTRY_ALPHA2S = " << alpha2s.dump_source << "\n\n"
+        definitions << "COUNTRY_ALPHA3S = " << alpha3s.dump_source << "\n\n"
+        definitions << "COUNTRY_NUMS    = " << nums.dump_source    << "\n\n"
       end
     end
   end
